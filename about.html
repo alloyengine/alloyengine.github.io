@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	
+	<title>Alloy Engine - About</title>
+	<meta name="description" content="A simple and lightweight game element engine 
+																		written in Go."/>
+	
+	<link href="normalize.css" media="screen" rel="stylesheet" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,600' 
+				rel='stylesheet' type='text/css'>
+	<link href="alloy.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+		<a href="index.html"><h1>Alloy</h1></a>
+		<p>A simple and lightweight game element engine written in Go. <br/>
+			<br/>currently v0.1</p>
+	</header>
+	<nav>
+		<a href="" class="active">About</a>
+		<a href="api.html">Documentation</a>
+		<a href="media.html">Media</a>
+		<a href="https://github.com/alloyengine">Code</a>
+	</nav>
+	<article>
+		<h2>About:</h2>
+		<p>
+			Alloy consists of two lightweight core components. Firstly Alloy will take 
+			care of 2D &amp; 3D graphics, audio, and controller input. The other 
+			component of Alloy is an element system.
+		</p>
+		<p>
+			In Alloy, a game created with <code class="go">core.Init() error</code> 
+			will become a top	level element. Elements have the ability to create 
+			component elements of themselves with 
+			<code class="go">Element.add(e Element) error</code>. Elements can be
+			anything from a 3D position, to a game scene, or anything you can code.
+		</p>
+		<p>
+			The cool part about all of this though, is that elements can be configured
+			with artist-readable text files, and a development goal is an IDE that can
+			read and write these configurations, test game scenes, and still work well
+			alongside non-IDE users.
+		</p>
+		<p>
+			Alloy has a long ways to go, though. And the engine needs your help. The
+			project is free <i>(as in freedom)</i>, and can be forked on 
+			<a href="https://github.com/alloyengine">github</a>. Pull requests are 
+			welcome!
+		</p>
+	</article>
+	<footer>All content licensed under the MIT license, 
+		Michael Keating &copy; 2014</footer>
+</body>
+</html>	

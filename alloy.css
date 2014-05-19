@@ -1,0 +1,92 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	background: #333;
+	width: 50em;
+	margin: 0 auto;
+}
+
+a {
+	color: #6aa;
+	text-decoration: none;
+}
+
+pre {
+	background: #222;
+	margin: 1em 0;
+	padding: .2em 1em;
+	border-radius: .2em;
+}
+
+header {
+	width: 100%;
+	min-height: 20em;
+	box-sizing: border-box;
+	padding: 4em;
+	color: #fff;
+	background: #333;
+}
+
+header h1 {
+	text-indent: -1000px;
+	background: url(logo.svg) no-repeat;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 5em; 
+}
+
+header p {
+	color: #ccc;
+	font-style: italic;
+	font-size: 1.25em;
+	display: block;
+	box-sizing: border-box;
+	padding: 1em 2em;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+nav {
+	width: 100%;
+	background: #666;
+	border-radius: .2em;
+	box-sizing: border-box;
+	padding: 1em 3.5em;
+}
+
+nav a {
+	color: #666;
+	margin: 0 .4em;
+	padding: .6em 1.2em;
+	border-radius: .2em;
+	background: #333;
+}
+
+nav a.active {
+	color: #333;
+	background: #666;
+}
+
+nav a:hover, nav a:focus {
+	color: #fff;
+}
+
+nav a:active {
+	background: #aaa;
+	color: #333;
+}
+
+article {
+	padding: 1em 4em;
+}
+
+footer { 
+	font-style: italic;
+	width: 100%;
+	color: #666;
+	margin: 1em 0 3em;
+	text-align: center;
+}
